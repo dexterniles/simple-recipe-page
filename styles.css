@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Outfit, YoungSerif;
 }
 
 @font-face {
@@ -16,16 +15,37 @@
 
 html {
     background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
+    align-items: flex-start;
+    max-width: 800px;
     background-color: #ffffff;
     padding: 30px;
+    border-radius: 1em;
+}
+
+h1, h2 {
+    font-family: "YoungSerif";
+}
+
+p, ul, ol, td {
+    font-family: "Outfit";
+}
+
+ul, ol {
+    margin-left: 1em;
+}
+
+img {
+    border-radius: 1em;
+    margin-bottom: 1em;
 }
 
 .attribution {
