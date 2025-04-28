@@ -1,1 +1,1 @@
-# simple-recipe-page
+Simple recipe page project for Frontendmentor.io
