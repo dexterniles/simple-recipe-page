@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -35,7 +36,7 @@ h1, h2 {
     font-family: "YoungSerif";
 }
 
-p, ul, ol, td {
+p, ul, ol, td, h3 {
     font-family: "Outfit";
 }
 
@@ -43,13 +44,80 @@ ul, ol {
     margin-left: 1em;
 }
 
+li {
+    margin-bottom: 1em;
+}
+
+li::marker {
+    color: #915d4c;
+}
+
+span {
+    font-weight: bold;
+}
+
 img {
     border-radius: 1em;
     margin-bottom: 1em;
 }
 
+.recipe-title {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.prep-time {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff7fc;
+    width: 740px;
+    padding: 1em;
+    border-radius: 1em;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.prep-time > h3 {
+    color: #7d425b;
+}
+
+.prep-time > li::marker {
+    color: #7d425b;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.ingredients > h2 {
+    color: #915d4c;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+table {
+    
+}
+
 .attribution {
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
