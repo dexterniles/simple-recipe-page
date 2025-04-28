@@ -1,3 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Outfit, YoungSerif;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "YoungSerif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+html {
+    background-color: #f3e5d8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
 .attribution {
     font-size: 11px; text-align: center; 
 }
