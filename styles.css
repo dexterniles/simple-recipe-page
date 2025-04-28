@@ -159,3 +159,18 @@ tr:last-child td {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (max-width: 760px) {
+    html {
+        padding: 0;
+    }
+    
+    body {
+        max-width: 760px;
+        padding: 0;
+    }
+
+    img {
+        width: 760px;
+    }
+}
