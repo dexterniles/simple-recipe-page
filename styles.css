@@ -166,11 +166,11 @@ tr:last-child td {
     }
     
     body {
-        max-width: 760px;
+        max-width: 500px;
         padding: 0;
     }
 
     img {
-        width: 760px;
+        width: 500px;
     }
 }
