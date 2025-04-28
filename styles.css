@@ -32,12 +32,19 @@ body {
     border-radius: 1em;
 }
 
+.nutrient-value {
+    color: #915d4c;
+    font-weight: 700;
+}
+
 h1, h2 {
     font-family: "YoungSerif";
+    color: #5a5750;
 }
 
 p, ul, ol, td, h3 {
     font-family: "Outfit";
+    color: #5a5750;
 }
 
 ul, ol {
@@ -54,6 +61,14 @@ li::marker {
 
 span {
     font-weight: bold;
+}
+
+.divider {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+    width: 740px;
 }
 
 img {
@@ -91,7 +106,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .ingredients > h2 {
@@ -102,17 +117,39 @@ img {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.instructions > h2 {
+    color: #915d4c;
 }
 
 .nutrition {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.nutrition > h2 {
+    color: #915d4c;
 }
 
 table {
-    
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1em;
+    text-align: left;
+}
+
+tr:last-child td {
+    border: none;
 }
 
 .attribution {
