@@ -168,7 +168,7 @@ tr:last-child td {
     
     body {
         max-width: 95dvw;
-        padding: 0;
+        padding: 1em;
     }
 
     img {
