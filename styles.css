@@ -160,7 +160,7 @@ tr:last-child td {
     color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (max-width: 95dvw) {
+@media screen and (max-width: 100dvw) {
     html {
         padding: 0;
         margin: 0;
