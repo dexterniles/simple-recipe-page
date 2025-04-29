@@ -159,30 +159,3 @@ tr:last-child td {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-
-@media screen and (max-width: 100dvw) {
-    html {
-        max-width: 100dvw;
-        padding: 0;
-        margin: 0;
-    }
-    
-    body {
-        max-width: 100dvw;
-        padding: 1em;
-    }
-
-    img {
-        width: 100dvw;
-        border-radius: none;
-    }
-
-    .prep-time {
-        max-width: 90dvw;
-        justify-content: center;
-    }
-
-    .divider {
-        width: 90dvw;
-    }
-}
