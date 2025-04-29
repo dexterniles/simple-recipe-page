@@ -160,17 +160,17 @@ tr:last-child td {
     color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 640px) {
     html {
         padding: 0;
     }
     
     body {
-        max-width: 500px;
+        max-width: 640px;
         padding: 0;
     }
 
     img {
-        width: 500px;
+        width: 640px;
     }
 }
