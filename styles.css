@@ -163,6 +163,7 @@ tr:last-child td {
 @media screen and (max-width: 640px) {
     html {
         padding: 0;
+        margin: 0;
     }
     
     body {
