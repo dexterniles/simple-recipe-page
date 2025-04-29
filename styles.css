@@ -178,4 +178,8 @@ tr:last-child td {
     .prep-time {
         max-width: 90dvw;
     }
+
+    .divider {
+        width: 90dvw;
+    }
 }
