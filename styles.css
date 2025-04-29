@@ -173,4 +173,8 @@ tr:last-child td {
     img {
         width: 640px;
     }
+
+    .prep-time {
+        max-width: 600px;
+    }
 }
