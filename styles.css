@@ -162,12 +162,13 @@ tr:last-child td {
 
 @media screen and (max-width: 100dvw) {
     html {
+        max-width: 100dvw;
         padding: 0;
         margin: 0;
     }
     
     body {
-        max-width: 95dvw;
+        max-width: 100dvw;
         padding: 1em;
     }
 
