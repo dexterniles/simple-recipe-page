@@ -159,3 +159,153 @@ tr:last-child td {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media (width < 820px) {
+    html {
+        background-color: #f3e5d8;
+        display: flex;
+        justify-content: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 350px;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 1em;
+    }
+
+    .nutrient-value {
+        color: #915d4c;
+        font-weight: 700;
+    }
+
+    h1, h2 {
+        font-family: "YoungSerif";
+        color: #5a5750;
+    }
+
+    p, ul, ol, td, h3 {
+        font-family: "Outfit";
+        color: #5a5750;
+    }
+
+    ul, ol {
+        margin-left: 1em;
+    }
+
+    li {
+        margin-bottom: 1em;
+    }
+
+    li::marker {
+        color: #915d4c;
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    .divider {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+        width: 300px;
+    }
+
+    img {
+        border-radius: 1em;
+        margin-bottom: 1em;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .recipe-title {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+
+    .prep-time {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff7fc;
+        width: 300px;
+        padding: 1em;
+        border-radius: 1em;
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+
+    .prep-time > h3 {
+        color: #7d425b;
+    }
+
+    .prep-time > li::marker {
+        color: #7d425b;
+    }
+
+    .ingredients {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    .ingredients > h2 {
+        color: #915d4c;
+    }
+
+    .instructions {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    .instructions > h2 {
+        color: #915d4c;
+    }
+
+    .nutrition {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    .nutrition > h2 {
+        color: #915d4c;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    td {
+        border-bottom: 1px solid #e0e0e0;
+        padding: 1em;
+        text-align: left;
+    }
+
+    tr:last-child td {
+        border: none;
+    }
+
+    .attribution {
+        font-size: 11px; 
+        text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
